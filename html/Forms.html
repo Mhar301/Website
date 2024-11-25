@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Forms & Applications - Parks and Recreations</title>
+    </head>
+    <body>
+        <header id="main-title">
+            <h1>❂ -- Welcome to the Forms & Applications Page -- ❂</h1>
+        </header>
+        <div class="topnav">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About Me</a>
+            <a href="./contact.html">Contact</a>
+            <a class="active" href="./Forms.html">Forms & Applications</a>
+            <a href="./Faq.html">FAQ</a>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="content2">
+            <h1 class="mini-header">Join Our Team!</h1>
+            <p class="highlighted-text">We're looking for passionate individuals to join our Parks and Recreations team. If you love the outdoors and want to contribute to our mission of connecting people with nature, apply below!</p>
+            
+            <form action="#" method="post" class="column">
+                <h2>Job Application Form</h2>
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required><br><br>
+                
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required><br><br>
+                
+                <label for="position">Position Applying For:</label><br>
+                <select id="position" name="position" required>
+                    <option value="" disabled selected>Select a position</option>
+                    <option value="Park Ranger">Park Ranger</option>
+                    <option value="Trail Guide">Trail Guide</option>
+                    <option value="Maintenance Worker">Maintenance Worker</option>
+                    <option value="Event Coordinator">Event Coordinator</option>
+                </select><br><br>
+                
+                <label for="resume">Upload Your Resume:</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br>
+                
+                <label for="cover-letter">Cover Letter:</label><br>
+                <textarea id="cover-letter" name="cover-letter" rows="6" placeholder="Tell us why you're a great fit for the position" required></textarea><br><br>
+                
+                <button type="submit" style="background-color: #3f704d; color: white; padding: 10px 20px; font-size: 20px; border: none; border-radius: 8px;">Submit Application</button>
+            </form>
+        </div>
+        <footer>
+            <p>Author: Moya H.<br>  
+            <a href="mailto:info@parksandrecs.com">Contact Support through email here!</a>
+        </footer>
+    </body>
+    </html>
+    
